@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { ReservationProvider } from './context/ReservationContext';
 import TrainSelection from './components/TrainSelection';
 import StationSelection from './components/StationSelection';
@@ -11,7 +11,7 @@ import ReservationStatus from './components/ReservationStatus';
 function App() {
   return (
     <ReservationProvider>
-      <Router basename={process.env.PUBLIC_URL}>
+      <HashRouter>
         <div className="App">
           <Routes>
             <Route path="/" element={<TrainSelection />} />
@@ -23,7 +23,7 @@ function App() {
             <Route path="/status" element={<ReservationStatus />} />
           </Routes>
         </div>
-      </Router>
+      </HashRouter>
     </ReservationProvider>
   );
 }
