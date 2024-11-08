@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "https://sj-malangmute.github.io/train-reservation/static/css/main.e6c13ad2.css",
-    "main.js": "https://sj-malangmute.github.io/train-reservation/static/js/main.7f25d41b.js",
+    "main.js": "https://sj-malangmute.github.io/train-reservation/static/js/main.28e70c0d.js",
     "static/js/453.9fd9e652.chunk.js": "https://sj-malangmute.github.io/train-reservation/static/js/453.9fd9e652.chunk.js",
     "index.html": "https://sj-malangmute.github.io/train-reservation/index.html",
     "main.e6c13ad2.css.map": "https://sj-malangmute.github.io/train-reservation/static/css/main.e6c13ad2.css.map",
-    "main.7f25d41b.js.map": "https://sj-malangmute.github.io/train-reservation/static/js/main.7f25d41b.js.map",
+    "main.28e70c0d.js.map": "https://sj-malangmute.github.io/train-reservation/static/js/main.28e70c0d.js.map",
     "453.9fd9e652.chunk.js.map": "https://sj-malangmute.github.io/train-reservation/static/js/453.9fd9e652.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.7f25d41b.js"
+    "static/js/main.28e70c0d.js"
   ]
 }
